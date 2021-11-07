@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 400px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(0, 145, 36);
+    color: white;
+    
+    
+}
+
+input{
+    border: 1px solid green;
+    margin-bottom: 4px;
+    
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+input:focus{
+    border: 1px solid green;
+    background-color: rgb(197, 255, 197);
+}
+
+ul a, li{
+    margin: 0px;
+    margin-left: 20px;
+    padding: 0;
+    color: green;
+    list-style: none;
+    
+}
+
+#delete-btn{
+    background-color: rgb(200, 255, 175);
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+#delete-btn:hover{
+    background-color: green;
+    color: white;
+}
